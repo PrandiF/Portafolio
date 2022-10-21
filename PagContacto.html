@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="StyleContacto.css">
+    <link rel="icon" href="p&i.ico">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/b51ac23272.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div id="div1">
+            <a href="index.html"><img src="p&i2.jpg" id="logo1"></a>
+        </div>
+    </nav>
+    <h2>Contacto</h2>
+    <main class="formu">
+        <p>Si tenes ganas de invertir en construccion y te gusto alguno de nuestros proyectos, completa el siguiente formmulario con tu informacion y nosotros nos contactaremos con vos.
+            Mismo si tenes tu propio proyecto y necesitas gente que te asesore y lo lleve a cabo, dejanos tu contacto que nos comunicaremos. En el casillero "proyecto" describinos tu idea.
+        </p>
+    </main>
+    <form>
+        <div class="div">
+            <label class="label">Nombre</label>
+            <input class="input" type="text" name="Nombre">
+            <span id="Completar"></span>
+        </div>
+        <div class="div">
+            <label class="label">Apellido</label>
+            <input class="input" type="text" name="Apellido">
+            <span class="Completar"></span>
+        </div>
+        <div class="div"> 
+            <label class="label">Localidad del proyecto</label>
+            <input class="input" type="text" name="Localidad">
+            <span class="Completar"></span>
+        </div>
+        <div class="div">
+            <label class="label">Direccion</label>
+            <input class="input" type="text" name="direccion">
+            <span class="Completar"></span>
+        </div>
+        <div class="div">
+            <label class="label">Telefono de contacto</label>
+            <input class="input" type="tel" name="Telefono">
+            <span class="Completar"></span>
+        </div>
+        <div class="div">
+            <label class="label">Horario disponible</label>
+            <input class="input" type="text" name="Horario">
+            <span class="Completar"></span>
+        </div>
+        <div class="div">
+            <label class="label">Proyecto</label>
+            <input class="input" type="text" name="Proyecto">
+            <span class="Completar"></span>
+        </div>
+        <div class="div">
+            <button id="sent" onclick="Send ()">Enviar</button>
+        </div>
+    </form>
+    <img src="fondo4.jpg" id="fondo4">
+    <footer class="footer-container">
+        <div id="copyright"> 
+            <h5><b>Copyright <i class="fa-regular fa-copyright"></i></b> - Todos los derechos reservados</h5>
+        </div>
+        <div id="footer"> 
+        <p class="footer">Seguinos en nuestras <b>redes</b></p>
+        <a href="https://Instagram.com/francoprandi/" class="footer"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://Facebook.com/francoprandi/" class="footer"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://Twitter.com/francoprandi/" class="footer"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer> 
+    </body>
+    <script>
+        function Send (name) {
+            const input = document.getElementsByClassName("input").value;
+            
+            console.log(name, input);
+        }
+    </script>
+</body>
+</html>
