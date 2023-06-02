@@ -1,0 +1,68 @@
+#navbar-container{
+    background-color: #818d92;
+}
+.navItem-style{
+    color: #021f3e;
+}
+#perfil-section{
+    background-color: aliceblue;
+    padding: 3%;
+}
+#perfilContainer{
+    margin-left: 10%;
+}
+#imgFran{
+    display: inline-block;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;    
+}
+#imgFran-name{
+    font-family: monospace;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+}
+#perfil-row2 p{
+    font-family: monospace;
+}
+#portfolio-section{
+    background-color: #2081C3;
+    padding: 3%;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contacto-section{
+    padding: 3%;
+    background-color: aliceblue;
+}
+#textarea-container textarea{
+    min-height: 8rem;
+}
+#footer-section{
+    background-color: #1C6E8C;
+    color: aliceblue;
+}
+#footerContainer{
+    padding: 5%;
+}
+.footer-col{
+    padding: 5px;
+    text-align: center;
+}
+.footer-col a{
+    color: aliceblue;
+    padding: 3px;
+    border: 1px solid aliceblue;
+    border-radius: 10%;
+}
+#copyright-container{
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 10px;
+    background-color: #021f3e;
+}
